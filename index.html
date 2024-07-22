@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- <div class="bg-img"></div> -->
+    <nav class="navbar">
+        <a href="#home" class="navbar-link" id="library-system"><b>Feedback Form</b></a></li>
+        <ul class="navbar-list">
+            <li class="navbar-item"><a href="#info" class="navbar-link"><b>Information</b></a></li>
+            <li class="navbar-item"><a href="#services" class="navbar-link"><b>Contact Us<b></a></li>
+            <li class="navbar-item"><a href="#contact" class="navbar-link"><b>Logout</b></a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="info">
+    <div>
+        <label for="name">Name :*</label> <br>
+        <input type="text" placeholder="Name" minlength="3" maxlength="50" required id="name">
+    </div>
+
+    <div>
+        <label for="portfolio">Portfolio :*</label> <br>
+    <input type="url" placeholder="Portfolio" required id="portfolio">
+    </div>
+
+    <div>
+        <label for="favorite color"> Favorite Color :*</label> <br>
+        <input type="color" placeholder="Favorite Color"  id="favColor">
+    </div>
+
+    <div>
+        <label for="Likeness">Likeness :*</label> <br>
+    <input type="range" placeholder="Likeness" min="1" max="100" required id="Likeness">
+    </div>
+
+    <div>
+        <label for="check">Check :*</label>
+        <input type="checkbox" placeholder="checkbox" id="chekbox"> <br>
+    </div>
+
+    <div>
+        <input type="file"  placeholderfile="file" id="file"> <br>
+    </div>
+</div>
+    </body>
+</html>

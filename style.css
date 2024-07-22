@@ -1,0 +1,86 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+    background-image: url(./feedback.jpg);
+    background-repeat: no-repeat;
+    /* backface-visibility: hidden; */
+    background-size: 100%;
+}
+
+
+.navbar {
+    background-color: #49dfa0;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+}
+
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+.navbar-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#library-system {
+    float: left;
+}
+
+.navbar-link:hover {
+    background-color: #575757;
+    color: white;
+}
+
+.container{
+
+    max-width: 400px;
+    font-size: 20px;
+    margin: 10px auto;
+    padding:10px;
+    padding-bottom: 10px;
+    background-color: rgb(168, 184, 184);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+div {
+    padding: 2px;
+}
+
+input {
+    padding: 10px;
+    height: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.Likeness {
+    height: 10px;
+    width: 95%;
+
+}
+
+#chekbox {
+
+    text-align: right;
+    height: 10px;
+    width: 10px;
+}
+
+#favColor {
+    width: 100%;
+}
